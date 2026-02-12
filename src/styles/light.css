@@ -1,0 +1,21 @@
+/* ===============================
+   Light Theme Variables
+=============================== */
+
+:root[data-theme="light"] {
+    --bg-color: #ffffff;
+    --text-color: #111827;
+    --border-color: #e5e7eb;
+    --primary-color: #4f46e5;
+    --secondary-bg: #f3f4f6;
+  }
+  
+  /* ===============================
+     Global Light Styles
+  =============================== */
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  

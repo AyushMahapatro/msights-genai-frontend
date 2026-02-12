@@ -1,0 +1,21 @@
+/* ===============================
+   Dark Theme Variables
+=============================== */
+
+:root[data-theme="dark"] {
+    --bg-color: #111827;
+    --text-color: #f9fafb;
+    --border-color: #374151;
+    --primary-color: #6366f1;
+    --secondary-bg: #1f2937;
+  }
+  
+  /* ===============================
+     Global Dark Styles
+  =============================== */
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
